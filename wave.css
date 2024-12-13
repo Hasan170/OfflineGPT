@@ -1,0 +1,93 @@
+/* Adjust header */
+.stApp > header {
+    background-color: transparent;
+}
+
+/* Main app container */
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(45deg, #49a09d, #9c80ae);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+/* Gradient animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Sidebar container */
+.stSidebar > div {
+    background-color: rgba(255, 255, 255, 0.8); /* Set sidebar background color */
+    border-radius: 10px; /* Round the corners */
+    padding: 20px; /* Add padding */
+}
+
+/* Sidebar title styling */
+.stSidebar .stTitle {
+    color: #333; /* Set title text color */
+    font-size: 18px; /* Set title font size */
+    margin-bottom: 20px; /* Add space below title */
+}
+
+/* Sidebar menu item styling */
+.stSidebar select {
+    background-color: #fff; /* Set menu background color */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Round the corners */
+    padding: 8px; /* Add padding */
+    width: 100%; /* Set menu width */
+    margin-bottom: 10px; /* Add space below menu */
+}
+
+/* Sidebar menu item hover effect */
+.stSidebar select:hover {
+    background-color: #f5f5f5; /* Darken the background color on hover */
+}
+
+/* Sidebar menu item focus effect */
+.stSidebar select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+
+/* Title styling */
+.stTitle {
+    color: #fff; /* Set title text color */
+    text-align: center; /* Center align title */
+}
+
+/* Text box styling */
+.stTextArea textarea {
+    background-color: rgba(255, 255, 255, 0.8); /* Set text box background color */
+    border-radius: 10px; /* Round the corners */
+    border: none; /* Remove border */
+    padding: 10px; /* Add padding */
+    color: #333; /* Set text color */
+}
+
+/* Button styling */
+.stButton button {
+    background-color: #9eeaa0; /* Set button background color */
+    color: white; /* Set button text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+.stButton button:hover {
+    background-color: #94aa95; /* Darken the background color on hover */
+}
